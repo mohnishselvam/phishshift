@@ -1,0 +1,9 @@
+﻿case_id,test_type,original_text,perturbed_text,expected_note
+ROBUST01,punctuation,Your account review is pending. Please check the details.,Your account review is pending!!! Please check the details...,Test sensitivity to punctuation changes.
+ROBUST02,capitalization,Please review the latest account notice.,PLEASE REVIEW THE LATEST ACCOUNT NOTICE.,Test sensitivity to capitalization.
+ROBUST03,spacing,A response is requested today.,A   response   is requested today.,Test sensitivity to repeated spaces.
+ROBUST04,wording,Please review the request.,Please check the request.,Compare semantically similar wording.
+ROBUST05,defanged_url,Review page: hxxps://notice.example/review,Review page: hxxp://notice[.]example/review,Compare safe defanged URL representations.
+ROBUST06,neutral_urgent_legitimate,Urgent: the campus timetable changes at 3 PM. Check your usual student portal.,Please note: the campus timetable changes at 3 PM. Check your usual student portal.,Legitimate urgency should not automatically imply phishing.
+ROBUST07,ordinary_sounding_phishing,Your account record has an update. Use the supplied link to enter your password and code.,There is an update to your account record. The supplied page requests your password and code.,Test a less alarmist credential-request message.
+ROBUST08,neutral_wording,A recent request is waiting for review.,The latest request is ready to be checked.,Test wording changes without adding a new URL.

@@ -1,0 +1,4 @@
+﻿file_name,source_type,description,license_or_provenance,contains_real_personal_data,external_urls_fetched
+messages_synthetic_1000.csv,synthetic,Locally generated synthetic examples for the PhishMan project.,Generated locally; no external message dataset used.,no,no
+messages_raw.csv,synthetic_copy,Copy of the locally generated synthetic dataset.,Copy of locally generated examples.,no,no
+robustness_cases.csv,synthetic_test_cases,Eight synthetic wording and punctuation test cases.,Authored locally for robustness testing.,no,no

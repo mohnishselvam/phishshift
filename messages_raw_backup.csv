@@ -1,0 +1,14 @@
+
+message_id,channel,subject_or_title,body_text,sanitized_url_features,sender_domain_type,label,campaign_group,collected_date
+MSG001,email,Weekly team meeting,The weekly team meeting starts at ten tomorrow.,none,internal,legitimate,legit_demo_01,2026-10-26
+MSG002,email,Document ready,Your shared document is ready for review by the team.,none,known,legitimate,legit_demo_02,2026-10-26
+MSG003,email,Password reset requested,You requested a password reset. Visit your organization's official site if this was you.,none,known,legitimate,legit_demo_03,2026-10-26
+MSG004,email,Unusual account notice,Your account needs attention. Review the notice through your organization's official app.,none,known,legitimate,legit_demo_04,2026-10-26
+MSG005,email,Invoice reminder,Please review the invoice attached to the approved internal ticket.,none,internal,legitimate,legit_demo_05,2026-10-26
+MSG006,email,Account verification required,Your account will be restricted unless you verify your details immediately.,defanged_url_present,unknown,phishing,phish_demo_01,2026-10-26
+MSG007,sms,Prize notification,You have won a prize. Act now to claim your reward.,none,unknown,phishing,phish_demo_02,2026-10-26
+MSG008,email,Mailbox storage warning,Your mailbox is full. Confirm your credentials to avoid losing access.,defanged_url_present,unknown,phishing,phish_demo_03,2026-10-26
+MSG009,sms,Delivery fee required,Your package is waiting. Pay an unexpected fee to release delivery.,defanged_url_present,unknown,phishing,phish_demo_04,2026-10-26
+MSG010,email,Security alert,Immediate action is required to prevent your account from being suspended.,none,unknown,phishing,phish_demo_05,2026-10-26
+MSG011,email,Meeting notes,Here are the notes from today's project meeting.,none,internal,legitimate,legit_demo_01,2026-10-26
+MSG012,email,Account verification required,Your account will be restricted unless you verify your details immediately!,defanged_url_present,unknown,phishing,phish_demo_01,2026-10-26

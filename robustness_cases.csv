@@ -1,0 +1,9 @@
+﻿case_id,base_label,perturbation,message_text
+ROBUST_001,phishing,baseline,Your account requires verification. Use hxxps://account-check[.]example/verify and provide the requested sign-in details.
+ROBUST_002,phishing,punctuation,Your account requires verification!!! Use hxxps://account-check[.]example/verify... Provide the requested sign-in details.
+ROBUST_003,phishing,case_change,YOUR ACCOUNT REQUIRES VERIFICATION. Use hxxps://account-check[.]example/verify and provide the requested sign-in details.
+ROBUST_004,phishing,spacing,Your account requires verification.  Use hxxps://account-check[.]example/verify   and provide the requested sign-in details.
+ROBUST_005,legitimate,baseline,Your monthly statement is available. Open the official application or use your usual bookmark. Do not send passwords or verification codes by email.
+ROBUST_006,legitimate,punctuation,"Your monthly statement is available! Open the official application, or use your usual bookmark. Do not send passwords or verification codes by email."
+ROBUST_007,legitimate,case_change,YOUR MONTHLY STATEMENT IS AVAILABLE. Open the official application or use your usual bookmark. Do not send passwords or verification codes by email.
+ROBUST_008,legitimate,wording,The monthly statement can now be reviewed. Use the official application or your saved bookmark. Never email your password or verification code.
