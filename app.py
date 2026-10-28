@@ -15,7 +15,7 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-from src.security_analysis import (
+from security_analysis import (
     analyze_message_cues,
     analyze_url,
     normalize_defanged_url,
